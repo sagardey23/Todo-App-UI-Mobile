@@ -1,0 +1,85 @@
+/* .main{
+    width: 50%;
+    margin: auto;
+} */
+.head{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:  flex;
+    /* font-weight: 700; */
+    opacity: 70%;
+    margin: 100px 0 30px 0;
+    
+}
+.space{
+    margin-left: 10px;
+}
+.parent{
+    height: 500px;
+    width: 350px;
+    position: relative;
+    margin: 60px 0 30px 0;
+}
+.card{
+    border: 1px solid rgb(226, 67, 67);
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px rgb(202, 191, 191);
+    height: 300px;
+    width: 200px;
+    margin-right: 60px;
+    padding-left: 50px;
+    position: relative;
+    
+
+}
+.org{
+    color: rgb(236, 70, 10);
+    text-align: center;
+    font: 1.5em sans-serif;
+    opacity: 60%;
+    text-decoration: none;
+}
+.und{
+    text-decoration:  2px line-through;
+    color: rgb(236, 70, 10);
+    text-align: center;
+    font: 20px sans-serif;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    opacity: 50%;
+    color: black;
+}
+.bottom{
+    position: absolute;
+    /* padding-left: 190px;
+    padding-top: 75px; */
+    right: 5px;
+    bottom: 5px;
+}
+/* .left{
+    position: absolute;
+    left: 1px;
+} */
+@media screen and (min-width:414px) and (max-width:736px) {
+    body{
+       display: inline-flex;
+   }
+   div{
+       display: flex;
+       flex-wrap: wrap;
+   }
+}
+@media screen and (min-width:810px) and (max-width:1080px) {
+     body{
+        display: inline-flex;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

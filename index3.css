@@ -1,0 +1,89 @@
+/* 
+.main{
+    width: 50%;
+    margin: auto;
+} */
+.add{
+    margin-top: 50px;
+}
+.li{
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 800;
+}
+.li2{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 45px;
+    color: rgb(70, 66, 66);
+    opacity: 50%;
+}
+.card{
+    border: 1px solid rgb(226, 67, 67);
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px rgb(202, 191, 191);
+    height: 70px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.rg{
+    color: brown;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 60%;
+    text-decoration: none;
+}
+.org1{
+    color: brown;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 60%;
+}
+.blur{
+    filter: blur(1px);
+}
+.al{
+    height: 140px;
+    width: 340px;
+    border: 1px solid red;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(253, 140, 74);
+    box-shadow: 10px 10px 7px rgb(202, 191, 191);
+}
+.inputbox{
+    border-color: rgb(248, 128, 107);
+    border-radius: 5px;
+}
+.ib{
+    padding: 5px 15px;
+
+    border:1px solid tomato;
+    background: tomato;
+    color: white;
+    border-radius: 30px;
+}
+@media screen and (min-width:414px) and (max-width:736px) {
+    body{
+       display: inline-flex;
+   }
+   div{
+       display: flex;
+       flex-wrap: wrap;
+   }
+}
+@media screen and (min-width:810px) and (max-width:1080px) {
+     body{
+        display: inline-flex;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
