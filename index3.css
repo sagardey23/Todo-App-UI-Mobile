@@ -1,8 +1,11 @@
-/* 
+body{
+    width: 414px;
+    height: 736px;
+}
 .main{
     width: 50%;
     margin: auto;
-} */
+}
 .add{
     margin-top: 50px;
 }
@@ -41,15 +44,15 @@
     opacity: 60%;
 }
 .blur{
-    filter: blur(1px);
+    filter: blur(10px);
 }
 .al{
     height: 140px;
-    width: 340px;
+    width: 200px;
     border: 1px solid red;
     position: absolute;
     top: 250px;
-    left: 60px;
+    left: 160px;
     border-radius: 20px;
     background: white;
     text-align: center;

@@ -1,4 +1,7 @@
-
+body{
+    width: 414px;
+    height: 736px;
+}
 .main{
     width: 50%;
     margin: auto;
@@ -7,15 +10,15 @@
     margin-top: 50px;
 }
 .li{
-    font-size: 45px;
+    font-size: 27px;
     display: inline-block;
-    font-weight: 800;
+    font-weight: 700;
 }
 .li2{
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
-    margin-right: 30px;
-    font-size: 45px;
+    margin-right: 5px;
+    font-size: 27px;
     color: rgb(70, 66, 66);
     opacity: 50%;
 }
@@ -32,6 +35,10 @@
     padding: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     opacity: 60%;
+    /* text-decoration: none; */
+    /* padding-top: 80px; */
+}
+.rg1{
     text-decoration: none;
 }
 .org1{
@@ -40,9 +47,6 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     opacity: 60%;
 }
-/* .blur{
-    filter: blur(10px);
-} */
 @media screen and (min-width:414px) and (max-width:736px) {
     body{
        display: inline-flex;

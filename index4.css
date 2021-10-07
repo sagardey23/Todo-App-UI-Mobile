@@ -1,25 +1,19 @@
 body{
-    /* border: 1px solid black; */
-    /* height: 70vh; */
-    /* width: 30vw; */
-    margin-left: 50px;
+    width: 414px;
+    height: 736px;
 }
 .blur{
-    filter: blur(1px);
-}
-/* .main{
-    position: absolute;
-} */
-.parent1{
-    position: relative;
+    filter: blur(15px);
+    width: 50%;
+    margin: auto;
 }
 .al{
     height: 140px;
     width: 200px;
     border: 1px solid red;
     position: absolute;
-    top: 50px;
-    /* left: 60px; */
+    top: 250px;
+    left: 160px;
     border-radius: 20px;
     background: white;
     text-align: center;
@@ -39,14 +33,10 @@ body{
     color: white;
     border-radius: 30px;
 }
-/* .bottom{
-    padding-left: 190px;
-    padding-top: 75px;
-} */
 .head{
-    font-size: 45px;
-    /* display:  flex; */
-    font-weight: 800;
+    font-size: 25px;
+    display:  flex;
+    font-weight: 600;
     opacity: 70%;
     
 }
