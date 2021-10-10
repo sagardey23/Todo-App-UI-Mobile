@@ -1,7 +1,3 @@
-body{
-    width: 414px;
-    height: 736px;
-}
 .main{
     width: 50%;
     margin: auto;
@@ -60,21 +56,15 @@ a{
     right: 5px;
     bottom: 5px;
 }
-@media screen and (min-width:414px) and (max-width:736px) {
-    body{
-       display: inline-flex;
-   }
-   div{
-       display: flex;
-       flex-wrap: wrap;
-   }
-}
-@media screen and (min-width:810px) and (max-width:1080px) {
-     body{
-        display: inline-flex;
+@media (min-width:414px) and (max-width:736px) {
+    *{
+        margin: 0;
+        padding: 0;
     }
-    div{
-        display: flex;
-        flex-wrap: wrap;
+}
+@media (min-width:810px) and (max-width:1080px) {
+    *{
+        margin: 0;
+        padding: 0;
     }
 }

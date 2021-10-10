@@ -1,58 +1,19 @@
 body{
-    width: 414px;
-    height: 736px;
-}
-.main{
-    width: 50%;
-    margin: auto;
-}
-.add{
-    margin-top: 50px;
-}
-.li{
-    font-size: 45px;
-    display: inline-block;
-    font-weight: 800;
-}
-.li2{
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
-    margin-right: 30px;
-    font-size: 45px;
-    color: rgb(70, 66, 66);
-    opacity: 50%;
-}
-.card{
-    border: 1px solid rgb(226, 67, 67);
-    border-radius: 10px;
-    box-shadow: 10px 10px 7px rgb(202, 191, 191);
-    height: 70px;
-    width: 300px;
-    margin-bottom: 20px;
-}
-.rg{
-    color: brown;
-    padding: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    opacity: 60%;
-    text-decoration: none;
-}
-.org1{
-    color: brown;
-    padding: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    opacity: 60%;
+    border: 1px solid rgb(20, 2, 2);
+    height: 850px;
+    width: 90%;
+    margin: 50px;
 }
 .blur{
-    filter: blur(10px);
+    filter: blur(15px);
 }
 .al{
     height: 140px;
-    width: 200px;
+    width: 340px;
     border: 1px solid red;
     position: absolute;
     top: 250px;
-    left: 160px;
+    left: 600px;
     border-radius: 20px;
     background: white;
     text-align: center;
@@ -72,21 +33,176 @@ body{
     color: white;
     border-radius: 30px;
 }
-@media screen and (min-width:414px) and (max-width:736px) {
-    body{
-       display: inline-flex;
-   }
-   div{
-       display: flex;
-       flex-wrap: wrap;
-   }
+.bottom{
+    padding-left: 190px;
+    padding-top: 75px;
 }
-@media screen and (min-width:810px) and (max-width:1080px) {
-     body{
-        display: inline-flex;
+.head{
+    font-size: 45px;
+    display:  flex;
+    font-weight: 800;
+    opacity: 70%;
+    
+}
+.hr{
+    width: 100px;
+}
+.left{
+    position: absolute;
+    left: 1px;
+}
+@media (min-width:414px) and (max-width:736px) {
+    *{
+        margin: 0;
+        padding: 0;
     }
-    div{
-        display: flex;
-        flex-wrap: wrap;
+    body{
+        border: 1px solid white;
     }
+    .main{
+        padding-left: 10px;
+        margin: 20px;
+
+    }
+    .add{
+            margin-top: 20px;
+    }
+    .li{
+        font-size: 28px;
+    }
+    .li2{
+        margin-right: 5px;
+        font-size: 28px;
+    }
+    .list{
+        display: none;
+    }
+    .card{
+        height: 30px;
+        width: 250px;
+        padding: 10px 0 10px 10px;
+        margin-bottom: 20px;
+    }
+    .und{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .org{
+        text-align: left;
+        color: black;
+        filter: opacity(50%);
+        font-size: 1em;
+    }
+    .parent{
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+    }
+    .parent1{
+        margin-top: 20px;
+        position: relative;
+    }
+    .parent2{
+        position: relative;
+    }
+    .parent3{
+        position: relative;
+    }
+    .parent4{
+        display: inline;
+        position: relative;
+    }.parent5{
+        display: inline;
+        position: relative;
+    }
+    .al{
+        height: 100px;
+        width: 280px;
+        position: absolute;
+        top: 250px;
+        left: 60px;
+    }
+
+
+}
+@media (min-width:810px) and (max-width:1080px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        padding-left: 10px;
+        width: 50%;
+         margin: auto;
+        
+    }
+    body{
+        border: 1px solid white;
+    }
+    .add{
+            margin-top: 20px;
+    }
+    .li2{
+        margin-right: 5px;
+    }
+    .list{
+        display: none;
+    }
+    .card{
+        height: 30px;
+        width: 250px;
+        padding: 10px 0 10px 10px;
+        margin-bottom: 20px;
+    }
+    .und{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .org{
+        text-align: left;
+        color: black;
+        filter: opacity(50%);
+        font-size: 1em;
+    }
+    .parent{
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+    }
+    .parent1{
+        margin-top: 20px;
+        position: relative;
+    }
+    .parent2{
+        position: relative;
+    }
+    .parent3{
+        position: relative;
+    }
+    .parent4{
+        display: inline;
+        position: relative;
+    }.parent5{
+        display: inline;
+        position: relative;
+    }
+    .al{
+        height: 100px;
+        width: 280px;
+        position: absolute;
+        top: 250px;
+        left: 250px;
+    }
+
+
 }
