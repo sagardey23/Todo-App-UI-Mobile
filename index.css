@@ -76,7 +76,7 @@
     position: absolute;
     left: 1px;
 }
-@media (min-width:414px) and (max-width:736px) {
+@media (min-width:360px) and (max-width:640px) {
     *{
         margin: 0;
         padding: 0;
@@ -145,7 +145,7 @@
 
 
 }
-@media (min-width:810px) and (max-width:1080px) {
+@media (min-width:768px) and (max-width:1024px) {
     *{
         margin: 0;
         padding: 0;
